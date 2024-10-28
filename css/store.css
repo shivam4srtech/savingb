@@ -5,7 +5,7 @@ body{
     margin-top: 6rem;
 }
 .container{
-    max-width: 1130px;
+    max-width: 1050px;
 }
 /* breadcrumb */
 .breadcrumb{
@@ -72,10 +72,11 @@ body{
     padding: 0 2rem;
 }
 .contentBox{
-    padding: 0 30px 30px;
+    /* padding: 0 30px 30px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
-    background-color: #fff;
+    background-color: #fff; */
     padding-top: 30px;
+    margin-bottom: 2rem;
 }
 .contentBox .storeHeader{
     display: flex;
@@ -686,6 +687,8 @@ body{
     font-weight: 600;
     color: #2e2e2e;
     margin-left: 2rem;
+    padding: 0;
+    font-size: 1.2rem;
 }
  .popularStr{
     border: 2px solid #f5f5f5;
@@ -880,7 +883,6 @@ body{
        float: none;
     }
     .coupon-item .couponInfo .latest-coupon  {
-        width: 75%;
         float: none;
     }
     .infoItem.coupon-detail{
@@ -955,8 +957,20 @@ body{
     line-height: 1.5;
 }
 /* get code and get deal modal */
+.modal .form-control{
+    box-shadow: none;
+    height: 2.2rem;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: .9rem;
+}
+.modal .col-form-label{
+    font-weight: 600;
+    font-size: .95rem;
+}
 .modal .modal-title{
     font-weight: 600;
+    font-size: 1.1rem;
  }
  .modal  .btn-close{
     box-shadow: none;
@@ -968,7 +982,25 @@ body{
  .modal  .modal-content .modal-footer{
     border-top: none;
   }
- 
+  .modal  .modal-content .modal-footer button{
+    border-radius: 4px;
+    font-weight: 500;
+    padding: .4rem .8rem;
+  }
+  .shareThisCoupons button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+  }
+  .shareThisCoupons button span{
+   margin-right: .5rem;
+  }
+  .shareThisCoupons button svg{
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+  }
   .modal .modal-body .modal-store-logo{
     display: flex;
     align-items: center;
@@ -981,6 +1013,16 @@ body{
   }
   .modal .modal-body .modal-store-logo:hover{
     border: 1px solid #2ec4b6;
+  }
+  .modal .sendToEmail button{
+    border: none;
+    outline: none;
+    min-width: 100px;
+    font-size: .95rem;
+    letter-spacing: .5px;
+  }
+  .modal .sendToEmail button:nth-of-type(2){
+    background-color: #2ec4b6;
   }
   .modal .modal-body .modal-store-logo img{
     display: block;
