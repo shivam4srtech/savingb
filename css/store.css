@@ -1380,10 +1380,7 @@ table>thead>tr>th, table>thead>tr>td {
     top: auto;
     border: 1.5px solid #e2e2e2;
 }
-.pageUpdate {
-    /* max-height: 30rem; */
-    /* overflow: auto; */
-}
+
 .couponHistory h4 {
     font-weight: 600;
     color: #2e2e2e;
