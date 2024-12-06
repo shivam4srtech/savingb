@@ -1461,3 +1461,47 @@ table>thead>tr>th, table>thead>tr>td {
 .header-thumb{
     margin-left: 2rem;
 }
+.topStore{
+  padding: 0;
+}
+ .topStore ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.topStore ul li {
+    margin-bottom: .5rem;
+    width: calc(100% / 4);
+}
+ .topStore ul li a {
+    color: #2e2e2e;
+    font-weight: 500;
+    font-size: .85rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-decoration: underline;
+    padding: .4rem;
+    letter-spacing: .5px;
+    margin-bottom: .5rem;
+}
+.relatedStore{
+    margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+     .topStore ul li {
+        width: calc(100% / 3);
+    }
+}
+@media (max-width: 768px) {
+    .topStore ul li {
+       width: calc(100% / 3);
+   }
+}
+@media (max-width: 500px) {
+    .topStore ul li {
+        width: calc(100% / 2);
+    }
+}
