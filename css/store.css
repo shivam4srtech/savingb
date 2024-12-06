@@ -226,9 +226,6 @@
     margin: auto;
 }
 .couponsection .sidebarWidget{
-    padding: 1rem;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
-    background: #fff;
     color: rgb(107 114 128 );
 }
 .sidebarWidget .disclaimerTxt{
@@ -240,6 +237,7 @@
     font-weight: 600;
     color: #2e2e2e;
     font-size: 1rem;
+    padding: 0;
     padding-bottom: .4rem;
     margin-bottom: .4rem;
     border-bottom: 1px solid #e3e3e3;
@@ -249,6 +247,7 @@
     color: #2e2e2e;
     font-size: .9rem;
     line-height: 1.4;
+    padding: 0;
 }
 .addressWidget form input::placeholder{
     font-weight: 400;
@@ -845,6 +844,11 @@
         margin-left: 0;
     }
 }
+@media(max-width: 800px){
+    .storeContent {
+        padding: 0 .5rem;
+    }
+}
 @media(max-width: 768px){
     .coupon-item .couponInfo  {
         flex-wrap: nowrap;
@@ -852,9 +856,6 @@
     .coupon-listing-footer.showbox {
         padding: 10px .6rem;
         margin-top: 1rem;
-    }
-    .storeContent {
-        padding: 0;
     }
     .coupon-des  {
         padding: 5px .6rem;
@@ -1177,12 +1178,10 @@
 }
 /* summary table */
 .summary-container {
-    overflow: auto;
     margin:  auto;
 }
 table {
     width: 100%;
-    margin-bottom: 20px;
     border: 1px solid #e9e9e9;
     border-collapse: collapse;
     border-spacing: 0;
@@ -1198,7 +1197,6 @@ table {
     color: #222;
     letter-spacing: .6px;
     line-height: 1.5;
-    min-width: 70px;
     text-align: left;
     vertical-align: top;
 }
@@ -1213,11 +1211,26 @@ table {
 table>thead>tr>th, table>thead>tr>td {
     border-bottom-width: 2px;
 }
-.summary-container table .summaryTitle {
-    min-width: 186px;
-}
+
 .summary-container table td {
-    font-size: .85rem;
+    font-size: .8rem;
+}
+@media(max-width:600px){
+    .summary-container table td {
+        font-size: .7rem;
+    }
+    .summary-container table th, .summary-container table td{
+        padding: .3rem;
+    }
+    .summary-container thead th{
+        font-size: .7rem;
+    }
+    .latest-coupon .coupon-title {
+        font-size: 1.2rem;
+    }
+    .storeWidgetHeading {
+        font-size: 1.2rem;
+    }
 }
 /* toi */
 .toi{
@@ -1500,5 +1513,10 @@ table>thead>tr>th, table>thead>tr>td {
 @media (max-width: 500px) {
     .topStore ul li {
         width: calc(100% / 2);
+    }
+}
+@media(max-width: 800px){
+    .breadcrumb{
+        padding: 0 .5rem;
     }
 }
