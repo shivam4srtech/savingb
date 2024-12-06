@@ -1,6 +1,4 @@
-body{
-    background-color: #f8f8f8;
-}
+
 .storePage{
     margin-top: 6rem;
 }
@@ -329,11 +327,12 @@ body{
 
 /* listing coupons */
 .couponsection .coupon-item{
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
     background: #fff;
     padding-bottom: 0;
     padding: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+    border-radius: .375rem;
 }
 .couponsection .coupon-item .z{
     display: flex;
