@@ -1,6 +1,6 @@
 
 .storePage{
-    margin-top: 6rem;
+    margin-top: 4.5rem;
 }
 .container{
     max-width: 800px;
@@ -1421,7 +1421,7 @@ table>thead>tr>th, table>thead>tr>td {
     margin-bottom: 1rem;
     width: 280px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .storeHeader .header-store-thumb a{
     display: inline-flex;
@@ -1470,6 +1470,10 @@ table>thead>tr>th, table>thead>tr>td {
 }
 .header-thumb{
     margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .topStore{
   padding: 0;
