@@ -784,3 +784,109 @@ a{
 .breadcrumb ul li a{
  color: #0066ff;
 }
+.subscribe{
+  background-color: #efefef;
+  margin-bottom: 2rem;
+}
+.subscribe .subscribe-item{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.subscribe-item h3{
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #222222;
+  line-height: 1.4;
+}
+.subscribe-item form{
+  border: 1px solid #bab6b6;
+  display: flex;
+  margin: 2rem auto;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 3px;
+}
+@media(max-width:1000px){
+  .subscribe-item form{
+      width: 100%;
+  }
+}
+.subscribe-item form input{
+  width: 78%;
+  border: none;
+  outline: none;
+  padding: .5rem 1rem;
+  color: #111111;
+}
+.subscribe-item form button{
+  width: 25%;
+  background-color: #2ec4b6;
+  color: #fff;
+  padding: .5rem;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+@media(max-width: 600px){
+  .subscribe-item h3 {
+      font-size: 1.3rem;
+      line-height: 1.4;
+  }
+}
+@media(max-width:500px){
+  .subscribe-item form button{
+      width: 30%;
+      font-size: .75rem;
+  }
+  .subscribe-item form input{
+      font-size: .8rem;
+  }
+
+}
+.footer-box .subscribe .subscribe-item{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.footer-box .subscribe-item form {
+  border: 1px solid transparent;
+  margin: 0rem auto;
+  background-color: transparent;
+  padding: 0;
+}
+.footer-box .subscribe{
+  background-color: transparent;
+}
+.subscribe-item form input::placeholder{
+  font-weight: 500;
+  font-size: .8rem;
+}
+ .subscribe-item form input{
+  font-weight: 500;
+  font-size: .8rem;
+  border: 1px solid #fff;
+  border-right: none;
+}
+.footer-box .subscribe-item form button{
+  font-size: .65rem;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2ec4b6;
+}
+.subscribe-item form input:focus{
+ border: 1px solid #2ec4b6;
+ border-right: none;
+}
+.footer-box .subscribe span{
+ font-weight: 500;
+ font-size: .75rem;
+ color: #000;
+ display: block;
+ margin-top: 1rem;
+ line-height: 1.4;
+}
