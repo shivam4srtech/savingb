@@ -41,7 +41,10 @@
     border: none;
     outline: none;
     border-radius: 0;
-    background-color: transparent;
+    background-color: #000;
+ }
+ .blog-details-page .searchBlog form button svg{
+    fill: #fff;
  }
  .blog-details-page .searchBlog form input{
     box-shadow: none;
