@@ -110,7 +110,7 @@ body{
     display: block;
 }
 .storeHeader .header-store-thumb a:hover{
-    border: 2px solid #2ec4b6;
+    border: 2px solid #18702c;
 }
 
 .storeHeader .header-store-thumb a img{
@@ -271,7 +271,7 @@ body{
 }
 .addressWidget form input:focus{
     box-shadow: none;
-    border: 1px solid  #2ec4b6;
+    border: 1px solid  #18702c;
 }
 .addressWidget form button{
     font-weight: 500;
@@ -306,7 +306,7 @@ body{
     display: inline-block;
 }
 .couponFilter  a #all{ 
-    background-color: #2ec4b6;
+    background-color: #18702c;
     color: #fff;
     font-weight: 700;
     font-size: .7rem;
@@ -370,7 +370,7 @@ body{
     justify-content: center;
 }
 .couponsection .coupon-item .store-thumb:hover {
-    border: 2px solid #2ec4b6;
+    border: 2px solid #18702c;
 }
 .store-thumb .thumb-padding {
     display: block;
@@ -453,7 +453,7 @@ body{
     position: absolute;
     left: -2px;
     top: -2px;
-    background: #2ec4b6;
+    background: #18702c;
     color: #FFFFFF;
     font-size: 16px;
     padding: 14px 15px 14px 14px;
@@ -469,7 +469,7 @@ body{
     width: 0;
     height: 0;
     border-top: 44px solid transparent;
-    border-left: 44px solid #2ec4b6;
+    border-left: 44px solid #18702c;
     position: absolute;
     right: -43px;
     top: 0px;
@@ -522,7 +522,7 @@ body{
 .coupon-button-type .coupon-deal, .coupon-button-type .coupon-print, .coupon-button-type .coupon-code {
     line-height: 1;
     padding: 14px 38px;
-    background: #2ec4b6;
+    background: #18702c;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -695,7 +695,7 @@ body{
     margin-bottom: 1rem;
 }
  .popularStr:hover{
-   border: 2px solid #2ec4b6
+   border: 2px solid #18702c
 }
  .popularStr img{
     max-width: 98%;
@@ -1008,7 +1008,7 @@ body{
     transition: border .3s ease;
   }
   .modal .modal-body .modal-store-logo:hover{
-    border: 1px solid #2ec4b6;
+    border: 1px solid #18702c;
   }
   .modal .sendToEmail button{
     border: none;
@@ -1018,7 +1018,7 @@ body{
     letter-spacing: .5px;
   }
   .modal .sendToEmail button:nth-of-type(2){
-    background-color: #2ec4b6;
+    background-color: #18702c;
   }
   .modal .modal-body .modal-store-logo img{
     display: block;
@@ -1037,7 +1037,7 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     color: #2e2e2e;
-    border: 2px dashed #2ec4b6;
+    border: 2px dashed #18702c;
     font-size: 1.6rem;
   }
   .modal .codeCopyBtn{
@@ -1058,7 +1058,7 @@ body{
     margin: 1rem auto;
   }
   .modal .storeBtn a{
-    background-color: #2ec4b6;
+    background-color: #18702c;
     font-weight: 600;
     padding: 10px 15px;
     border: none;
@@ -1147,7 +1147,7 @@ body{
 }
 .subscribe-item form button{
     width: 25%;
-    background-color: #2ec4b6;
+    background-color: #18702c;
     color: #fff;
     padding: .5rem;
     border-radius: 0 4px 4px 0;
@@ -1368,7 +1368,7 @@ table>thead>tr>th, table>thead>tr>td {
 .couponHistory .step .circle {
     width: 10px;
     height: 10px;
-    background-color: #2ec4b6;
+    background-color: #18702c;
     border: none;
 }
 .couponHistory .step .line {

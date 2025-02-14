@@ -82,7 +82,7 @@
 .more-btn button{
     margin: auto;
     display: block;
-    background-color: #93e2db;
+    background-color: #18702cb5;
     border-radius: 1.625rem;
     color: #222;
     outline: none;
@@ -92,7 +92,7 @@
     font-weight: 600;
 }
 .more-btn button:hover{
-    background-color: #cbf3f0;
+    background-color: #18702c78;
     transition: .3s ease;
 }
 @media(max-width:600px){
@@ -251,7 +251,7 @@
 }
 .subscribe-item form button{
     width: 25%;
-    background-color: #2ec4b6;
+    background-color: #18702c;
     color: #fff;
     padding: .5rem;
     border-radius: 0 4px 4px 0;
@@ -286,27 +286,7 @@
 }
 /* tranding deals */
 
-.trandingDeals{
-    padding: 3rem 1rem;
-    background-color: #f5f5f5;
-}
-.trandingDeals h2{
-    font-weight: 600;
-    margin-bottom: 1.4rem;
-    font-size: 1.6rem;
-}
-.trandingDeals .trandingItem{
-    margin: 35px 5px 5px;
-    padding: 10px;
-    position: relative;
-    border-radius: 0;
-    background-color: #fff;
-    box-shadow: 0 1px 3px 0 rgb(92 14 113 / 31%);
-    transition: box-shadow .3s ease;
-}
-.trandingDeals .trandingItem:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
+
 .store-product-logo {
     width: 130px;
     padding: 5px 20px;
@@ -333,6 +313,7 @@
     line-height: 1.5;
     font-size: .85rem;
     display: -webkit-box;
+    line-clamp: 1;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -345,7 +326,7 @@
    margin-top: .5rem;
    margin-bottom: .8rem;
    border-radius: 1.76rem;
-   background-color: #2ec4b6;
+   background-color: #18702c;
    font-size: .95rem;
 }
 .boxFooter{
@@ -361,4 +342,98 @@
 }
 .boxFooter span img{
     margin-right: .2rem;
+ }
+ /* topRatedStore */
+ .topRatedStore{
+    padding: 3rem 0;
+ }
+ .topRatedStore h2{
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    font-size: 1.6rem;
+ }
+ .topRatedStore .toprated{
+   border: 1px solid #ccc;
+   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+ }
+ .topRatedStore .toprated:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+ .topRatedStore .toprated .topratedTop{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px solid #ccc;
+   max-height: 120px;
+}
+ .topRatedStore .toprated .topratedTop img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  }
+  .topRatedStore .toprated .topRatedBottom {
+   padding: .8rem .5rem;
+}
+  .topRatedStore .toprated .topRatedBottom .storeName{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.topRatedStore .toprated .topRatedBottom .storeName span:nth-of-type(1){
+   color: #006de4;
+   font-weight: 600;
+   font-size: .8rem;
+   text-transform: uppercase;
+}
+.topRatedStore .toprated .topRatedBottom .storeName span:nth-of-type(2){
+    color: #5C5C5C;
+    font-weight: 600;
+    font-size: .8rem;
+    text-transform: capitalize;
+ }
+ .topRatedStore .toprated .topRatedBottom .discount{
+    font-weight: 600;
+    color: #5c5c5c;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: .5rem;
+}
+.topRatedStore .toprated .topRatedBottom .description{
+    font-weight: 500;
+    color: #5c5c5c;
+    font-size: .8rem;
+    line-height: 1.4;
+}
+.online-store .pickedStore{
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
+.online-store .pickedStore .imgBox{
+   max-height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 6px;
+   margin-bottom: .5rem;
+ }
+.online-store .pickedStore .imgBox img{
+   max-width: 100%;
+   object-fit: contain;
+   max-height: 100%;
+}
+.online-store .pickedStore .dealCout{
+   text-align: center;
+   font-weight: 600;
+   color: #5c5c5c;
+   font-size: .9rem;
  }
