@@ -82,7 +82,7 @@
 .more-btn button{
     margin: auto;
     display: block;
-    background-color: #18702cb5;
+    background-color: var(--primary-color);b5;
     border-radius: 1.625rem;
     color: #222;
     outline: none;
@@ -92,7 +92,7 @@
     font-weight: 600;
 }
 .more-btn button:hover{
-    background-color: #18702c78;
+    background-color: var(--primary-color);78;
     transition: .3s ease;
 }
 @media(max-width:600px){
@@ -251,7 +251,7 @@
 }
 .subscribe-item form button{
     width: 25%;
-    background-color: #18702c;
+    background-color: var(--primary-color);;
     color: #fff;
     padding: .5rem;
     border-radius: 0 4px 4px 0;
@@ -326,7 +326,7 @@
    margin-top: .5rem;
    margin-bottom: .8rem;
    border-radius: 1.76rem;
-   background-color: #18702c;
+   background-color: var(--primary-color);;
    font-size: .95rem;
 }
 .boxFooter{

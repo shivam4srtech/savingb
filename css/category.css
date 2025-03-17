@@ -38,7 +38,7 @@
 }
 .category-title a span{
    display: block;
-   color: #18702c;
+   color: var(--primary-color);;
    font-weight: 600;
    letter-spacing: .5px;
    text-align: center;
@@ -58,7 +58,7 @@
 }
 .store-bg-1 {
     padding: 20px;
-    background-image: linear-gradient(to  right, #18702c, #2ec4b58b);
+    background-image: linear-gradient(to  right, var(--primary-color);, #2ec4b58b);
     color: #fff;
     font-weight: 500;
     border-radius: 5px;
@@ -72,7 +72,7 @@
     background-color: #ffffff;
     padding-top: 20px;
     margin: 5px auto;
-    border: 3px solid #18702c;
+    border: 3px solid var(--primary-color);;
     box-shadow: 0px 0px 5px 0px rgb(0 81 250 / 20%);
     border-radius: 50%;
 }
@@ -239,7 +239,7 @@
     display: flex;
     font-weight: 600;
     padding: .4rem 1rem;
-    background-color: #18702c;
+    background-color: var(--primary-color);;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -266,7 +266,7 @@
 }
 .pagination ul li a{ 
     padding: .3rem 1rem;
-    border: 1px solid #18702c;
+    border: 1px solid var(--primary-color);;
     display: inline-block;
     margin: 0 .5rem;
     border-radius: 3px;
@@ -276,6 +276,6 @@
     cursor: pointer;
 }
 .pagination ul li a.active{
-    background-color: #18702c;
+    background-color: var(--primary-color);;
     color: #fff;
 }

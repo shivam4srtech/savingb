@@ -2,7 +2,6 @@
     background-color: #f6f6f6;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    margin-top: 3rem;
  }
  .allStorePage .container{
     max-width: 1000px;
@@ -57,7 +56,7 @@
     height: 26px;
 }
 .alpha-store p .getStore:hover {
-   background-color: #18702c;
+   background-color: var(--primary-color);;
    color: #fff;
 }
 .alpha-store .storeList {
@@ -244,7 +243,7 @@
 .loadMoreCoupon button{
    border: none;
    outline: none;
-   background-color: #18702c;
+   background-color: var(--primary-color);;
    color: #fff;
    font-weight: 500;
    padding: .5rem 1rem;

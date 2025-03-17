@@ -101,7 +101,7 @@ body{
     border-radius: 4px;
     color: #000;
     font-weight: 500;
-    background: #18702c;
+    background: var(--primary-color);;
     outline: none;
     border: none;
     margin: 15px;
