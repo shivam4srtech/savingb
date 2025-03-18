@@ -82,7 +82,7 @@
 .more-btn button{
     margin: auto;
     display: block;
-    background-color: var(--primary-color);b5;
+    background-color: #0ecce4b5;
     border-radius: 1.625rem;
     color: #222;
     outline: none;
@@ -92,7 +92,7 @@
     font-weight: 600;
 }
 .more-btn button:hover{
-    background-color: var(--primary-color);78;
+    background-color: #0ecce478;
     transition: .3s ease;
 }
 @media(max-width:600px){
@@ -437,3 +437,112 @@
    color: #5c5c5c;
    font-size: .9rem;
  }
+ .homeBg{
+    background-color: #0ecce4;
+    padding: 1rem 0;
+ }
+ .homeBg img{
+   max-width: 100%;
+   object-fit: contain;
+ }
+ .homeBg h1{
+    font-weight: 700;
+    color: #222;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  @media(max-width:560px){
+    .homeBg h1{
+        font-size: 2rem;
+      }
+  }
+  .homeBg a{
+    background-color: #205CD4;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 15px 040px 015px 040px;
+    color: #fff;
+}
+/* ********************************OUR Partner*************************** */
+.partners{
+    margin-top: 3.2rem;
+    margin-bottom: 2.8rem;
+}
+.partners h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.brand-item a{
+    text-decoration:  none;
+}
+.brand-image{
+    border: 1px solid #f2f0f0;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+.brand-item img{
+    width: 95%;
+    height: 10rem;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    padding: .5rem;
+}
+.brand-title{
+    text-align: center;
+}
+.brand-title span{
+    font-weight: 600;
+    color: #232232;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: block;
+    padding: .5rem;
+    overflow: hidden;
+}
+.secHeading{
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: left !important;
+}
+@media(max-width:600px){
+    .secHeading{
+        font-size: 1.4rem;
+    }
+}
+/* ************************TOP STORE******************** */
+.top-store{
+    margin-top: 3.6rem;
+    margin-bottom: 2rem;
+}
+.store-item{
+    margin-bottom: 2rem;
+}
+.top-store h2{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.store{
+    border-radius: 4px;
+    border: 1px solid #dfdddd;
+    transition: .3s ease;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+    justify-content: center;
+}
+.store:hover{
+    box-shadow: 3px 3px 10px #dedbdb;
+}
+.store img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 4px;
+    object-fit: contain;
+}

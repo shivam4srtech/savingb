@@ -343,6 +343,7 @@ body{
     display: inline-flex;
     gap: 6px;
     margin-bottom: 0;
+    align-items: center;
 }
 .coupon-listing-item .c-type .exp {
     font-size: 12px;
@@ -641,4 +642,57 @@ body{
 }
 .coupon-listing-footer.accordion{
     padding: 0 !important;
+}
+@media(max-width:768px){
+    .header-store-thumb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-store-thumb a{
+        max-width: 70px;
+        margin: auto;
+        display: flex;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+    }
+    .header-store-thumb a img{
+        max-width: 70px;
+
+        height: 70px;
+    }
+    .rate-btn{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .showbox .lastUsed {
+        font-size: 9px;
+    }
+    .coupon-listing-item .c-type .exp {
+        font-size: 9px;
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+    .coupon-listing-item .c-type .totalUsed {
+        font-size: 9px;
+    }
+    .verifiedCoupon {
+        font-size: 9px;
+    }
+    .coupon-listing-footer.showbox{
+        padding: 10px 5px;
+    }
+    .coupon-listing-item .c-type span{
+        padding: 0 1px;
+    }
+    .couponSection .container{
+        padding: 0;
+    }
+    .header-content h1{
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
 }
