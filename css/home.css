@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .homeBanner{
-    padding: 6rem 1rem 3rem 1rem;
+    padding: 2rem 0 ;
 }
 .homeBanner .banner-slider{
     border-radius: 4px;
@@ -30,7 +30,7 @@
  }
 @media(max-width: 600px){
     .homeBanner{
-        padding: 6rem 1rem 2rem 1rem;
+        padding: 1rem 0rem 2rem 0rem;
     }
 }
 /* category */
@@ -551,9 +551,8 @@
 }
 /* *****************************Exclusive**************************** */
 .exclusive{
-    margin-bottom: 2rem;
+   padding: 2rem 0;
     background-color: #f4f5ef;
-    padding: 2.8rem;
 }
 .exclusive h2{
     font-weight: 700;
@@ -581,7 +580,7 @@
     text-decoration: none;
     padding: .1rem;
 }
-.exclusive-item a,span{
+.exclusive-item a{
     font-weight: 600;
     color: #222222;
     text-transform: uppercase;
